@@ -1,0 +1,10 @@
+name = "postall"
+compatibility_date = "2026-04-10"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".open-next"
+
+[vars]
+NEXT_PUBLIC_SUPABASE_URL = "https://qfrrtygljpncmadkjswf.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFmcnJ0eWdsanBuY21hZGtqc3dmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk2NjU1MTAsImV4cCI6MjA2NTI0MTUxMH0.BH_P-lT9s0YDqVcLZRBq0bSGBjQGqH3Y-0o0FRl3E_Q"
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME = "dtrb5cndv"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID = "postall-e15cb"

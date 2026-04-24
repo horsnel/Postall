@@ -1,0 +1,22 @@
+{
+  "name": "PostAll — Nigeria's Marketplace",
+  "short_name": "PostAll",
+  "description": "Buy, Sell & Post Anything in Nigeria. Tasks, services, jobs, and marketplace — all in one place.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0D8A5C",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["marketplace", "shopping", "services"],
+  "lang": "en-NG",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
