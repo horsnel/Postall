@@ -141,10 +141,13 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    border-color: var(--border);
+    outline-color: color-mix(in srgb, var(--ring) 50%, transparent);
   }
   body {
-    @apply bg-background text-foreground overflow-x-hidden;
+    background-color: var(--background);
+    color: var(--foreground);
+    overflow-x: hidden;
   }
 }
 
@@ -549,7 +552,9 @@
 
 /* ========== ENHANCED SKELETON ========== */
 .skeleton-card {
-  @apply rounded-xl border border-border/50 p-4;
+  border-radius: 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--border) 50%, transparent);
+  padding: 1rem;
   background: linear-gradient(
     135deg,
     #F3F4F6 0%,
@@ -567,13 +572,14 @@
 
 /* ========== FLOATING LABEL INPUT ========== */
 .floating-label {
-  @apply relative;
+  position: relative;
 }
 .floating-label input:focus + label,
 .floating-label input:not(:placeholder-shown) + label,
 .floating-label textarea:focus + label,
 .floating-label textarea:not(:placeholder-shown) + label {
-  @apply -translate-y-6 scale-75 text-emerald-600;
+  transform: translateY(-1.5rem) scale(0.75);
+  color: #0D8A5C;
 }
 
 
@@ -623,7 +629,7 @@
 
 /* ========== TOOLTIP ENHANCED ========== */
 .tooltip-enhanced {
-  @apply relative;
+  position: relative;
   animation: tooltip-in 0.2s ease-out;
 }
 @keyframes tooltip-in {

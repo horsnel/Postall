@@ -58,3 +58,6 @@ yarn-error.log*
 skills/
 dev.log
 .vercel
+.cf-deploy/
+worklog.md
+download/
